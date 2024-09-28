@@ -1,0 +1,173 @@
+.App {
+  height: 100vh;
+  background-color: #F9FAFB;
+  color: #111827;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    background-color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon {
+    font-size: 30px;
+    color: #22C55E;
+}
+
+.btn {
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.login-btn {
+    background-color: whitesmoke;
+    border: none;
+}
+.signup-btn {
+    background-color: #237ee5;
+    border: none;
+    color: white;
+}
+.navbar button {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbar .create-btn {
+    background-color: #22C55E;
+    color: white;
+    border: none;
+}
+
+.create-poll h1{
+    text-align: center;
+}
+
+.create-poll form {
+    padding: 0 10%;
+}
+
+.create-poll .row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.create-poll label {
+    margin-top: 10px;
+}
+
+.create-poll input,
+.create-poll textarea {
+    border: 1px solid #D1D5DB;
+    padding: 10px;
+}
+.create-poll .remove-btn {
+    padding: 10px;
+    background-color: #F97316;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.options-input {
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.addOptions-btn {
+    background-color: #4F46E5;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #D1D5DB;
+}
+
+.date-time-input input{
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.create-btn {
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #22C55E;
+    color: white;
+    border: none;
+}
+
+.poll-container {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.home {
+    padding: 20px 10%;
+}
+.poll-container .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.category {
+    background-color: #c2ea9c;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.vote-count {
+    border: 1px solid #74e30d ;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.question {
+    font-weight: 500;
+    font-size: medium;
+}
+
+.created-at,
+.expires-at {
+    font-weight: 300;
+    font-size: small;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.created-at {
+    border: 1px solid #74e30d ;
+}
+
+.expires-at {
+    border: 1px solid salmon;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

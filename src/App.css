@@ -122,10 +122,18 @@ hr {
     background-color: white;
     padding: 10px;
     border: 1px solid black;
+    margin-bottom: 20px;
 }
 
 .home {
     padding: 20px 10%;
+}
+
+.tags-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .poll-container .header {
     display: flex;

@@ -179,3 +179,54 @@ hr {
     flex-direction: row;
     gap: 10px;
 }
+
+/* login page */
+.icon-one {
+    font-size: 100px;
+    color: #22C55E;
+}
+
+.login-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-container {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background-color: #F4ECF7;
+}
+
+.right-container {
+    padding: 20px;
+    background-color: #fbfcfc;
+}
+
+.login-container .row{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-container form {
+    margin-top: 50px;
+}
+.login-container .row input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #abb2b9;
+    margin-bottom: 20px;
+    color: #808b96;
+}
+
+.login-container .login-btn {
+    padding: 10px 50px;
+    background-color: #753cc2;
+    border-radius: 20px;
+    color: white;
+}
+
+.login-container .login-btn:hover {
+    background-color: #a580d8;
+}

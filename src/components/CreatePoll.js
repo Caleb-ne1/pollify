@@ -43,8 +43,11 @@ const CreatePoll = () => {
         };
 
         try {
-            const response = await axios.put('http://localhost:3001/vote/update-poll/66f848d246d5b73042de2d49', pollData);
+            const response = await axios.post('http://localhost:3001/vote/poll', pollData,  {
+                withCredentials: true, 
+            });
             alert('Poll created successfully:', response.data);
+            alert(pollData);
         } catch (err) {
             alert('Error creating poll:', err);
         }
